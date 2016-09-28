@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/stylesheet.css" rel="stylesheet"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="js/biocircos-1.1.2.js"></script>
+    <!-- data section-->
+    <script src="data/background.js"></script>
+    <script src="data/text.js"></script>
+    <script src="data/arc.js"></script>
+    <script src="data/cnv.js"></script>
+    <script src="data/snp.js"></script>
+    <script src="data/line.js"></script>
+    <script src="data/link.js"></script>
+    <script src="data/scatter.js"></script>
+    <script src="data/histogram.js"></script>
+    <script src="data/heatmap.js"></script>
+</head>
+<body>
+<div id="biocircos"></div>
+<script>
+    var BioCircosGenome = [   // human hg19, data tag is BioCircosGenome
+        ["1", 249250621], ["2", 243199373], ["3", 198022430], ["4", 191154276], ["5", 180915260], ["6", 171115067],
+        ["7", 159138663], ["8", 146364022], ["9", 141213431], ["10", 135534747], ["11", 135006516], ["12", 133851895],
+        ["13", 115169878], ["14", 107349540], ["15", 102531392], ["16", 90354753], ["17", 81195210], ["18", 78077248],
+        ["19", 59128983], ["20", 63025520], ["21", 48129895], ["22", 51304566], ["X", 155270560], ["Y", 59373566]];
+
+    var BioCircos01 = new BioCircos(ARC, TEXT, HEATMAP, HISTOGRAM, BACKGROUND, CNV, SNP, LINE, LINK, SCATTER, BioCircosGenome, {
+        target: "biocircos",
+        svgWidth: 1024,
+        svgHeight: 682,
+        chrPad: 0.04,
+        innerRadius: 246,
+        outerRadius: 270,
+
+        // ARC
+        ARCMouseEvent: false,
+        ARCMouseClickDisplay: false,
+        ARCMouseClickColor: "red",
+        ARCMouseClickArcOpacity: 1.0,
+        ARCMouseClickArcStrokeColor: "#F26223",
+        ARCMouseClickArcStrokeWidth: 1,
+        ARCMouseClickTextFromData: "fourth",
+        ARCMouseClickTextOpacity: 1,
+        ARCMouseClickTextColor: "red",
+        ARCMouseClickTextSize: 8,
+        ARCMouseClickTextPostionX: 0,
+        ARCMouseClickTextPostionY: 0,
+        ARCMouseClickTextDrag: true,
+        ARCMouseDownDisplay: false,
+        ARCMouseDownColor: "green",
+        ARCMouseDownArcOpacity: 1.0,
+        ARCMouseDownArcStrokeColor: "#F26223",
+        ARCMouseDownArcStrokeWidth: 0,
+        ARCMouseEnterDisplay: false,
+        ARCMouseEnterColor: "yellow",
+        ARCMouseEnterArcOpacity: 1.0,
+        ARCMouseEnterArcStrokeColor: "#F26223",
+        ARCMouseEnterArcStrokeWidth: 0,
+        ARCMouseLeaveDisplay: false,
+        ARCMouseLeaveColor: "pink",
+        ARCMouseLeaveArcOpacity: 1.0,
+        ARCMouseLeaveArcStrokeColor: "#F26223",
+        ARCMouseLeaveArcStrokeWidth: 0,
+        ARCMouseMoveDisplay: false,
+        ARCMouseMoveColor: "red",
+        ARCMouseMoveArcOpacity: 1.0,
+        ARCMouseMoveArcStrokeColor: "#F26223",
+        ARCMouseMoveArcStrokeWidth: 0,
+        ARCMouseOutDisplay: false,
+        ARCMouseOutAnimationTime: 500,
+        ARCMouseOutColor: "red",
+        ARCMouseOutArcOpacity: 1.0,
+        ARCMouseOutArcStrokeColor: "red",
+        ARCMouseOutArcStrokeWidth: 0,
+        ARCMouseUpDisplay: false,
+        ARCMouseUpColor: "grey",
+        ARCMouseUpArcOpacity: 1.0,
+        ARCMouseUpArcStrokeColor: "#F26223",
+        ARCMouseUpArcStrokeWidth: 0,
+        ARCMouseOverDisplay: false,
+        ARCMouseOverColor: "red",
+        ARCMouseOverArcOpacity: 1.0,
+        ARCMouseOverArcStrokeColor: "#F26223",
+        ARCMouseOverArcStrokeWidth: 3,
+
+        // CNV
+        CNVMouseEvent: true,
+        CNVMouseClickDisplay: true,
+        CNVMouseClickColor: "red",
+        CNVMouseClickArcOpacity: 1.0,
+        CNVMouseClickArcStrokeColor: "#F26223",
+        CNVMouseClickArcStrokeWidth: 0,
+        CNVMouseClickTextFromData: "fourth",   //first,second,third,fourth column
+        CNVMouseClickTextOpacity: 1,
+        CNVMouseClickTextColor: "red",
+        CNVMouseClickTextSize: 8,
+        CNVMouseClickTextPostionX: 0,
+        CNVMouseClickTextPostionY: 0,
+        CNVMouseClickTextDrag: true,
+        CNVMouseDownDisplay: false,
+        CNVMouseDownColor: "green",
+        CNVMouseDownArcOpacity: 1.0,
+        CNVMouseDownArcStrokeColor: "#F26223",
+        CNVMouseDownArcStrokeWidth: 0,
+        CNVMouseEnterDisplay: false,
+        CNVMouseEnterColor: "yellow",
+        CNVMouseEnterArcOpacity: 1.0,
+        CNVMouseEnterArcStrokeColor: "#F26223",
+        CNVMouseEnterArcStrokeWidth: 0,
+        CNVMouseLeaveDisplay: false,
+        CNVMouseLeaveColor: "pink",
+        CNVMouseLeaveArcOpacity: 1.0,
+        CNVMouseLeaveArcStrokeColor: "#F26223",
+        CNVMouseLeaveArcStrokeWidth: 0,
+        CNVMouseMoveDisplay: false,
+        CNVMouseMoveColor: "red",
+        CNVMouseMoveArcOpacity: 1.0,
+        CNVMouseMoveArcStrokeColor: "#F26223",
+        CNVMouseMoveArcStrokeWidth: 0,
+        CNVMouseOutDisplay: false,
+        CNVMouseOutAnimationTime: 500,
+        CNVMouseOutColor: "red",
+        CNVMouseOutArcOpacity: 1.0,
+        CNVMouseOutArcStrokeColor: "red",
+        CNVMouseOutArcStrokeWidth: 0,
+        CNVMouseUpDisplay: false,
+        CNVMouseUpColor: "grey",
+        CNVMouseUpArcOpacity: 1.0,
+        CNVMouseUpArcStrokeColor: "#F26223",
+        CNVMouseUpArcStrokeWidth: 0,
+        CNVMouseOverDisplay: false,
+        CNVMouseOverColor: "red",
+        CNVMouseOverArcOpacity: 1.0,
+        CNVMouseOverArcStrokeColor: "#F26223",
+        CNVMouseOverArcStrokeWidth: 3,
+        CNVMouseOverTooltipsHtml01: "chr : ",
+        CNVMouseOverTooltipsHtml02: "<br>start : ",
+        CNVMouseOverTooltipsHtml03: "<br>end : ",
+        CNVMouseOverTooltipsHtml04: "<br>value : ",
+        CNVMouseOverTooltipsHtml05: "",
+        CNVMouseOverTooltipsPosition: "absolute",
+        CNVMouseOverTooltipsBackgroundColor: "white",
+        CNVMouseOverTooltipsBorderStyle: "solid",
+        CNVMouseOverTooltipsBorderWidth: 0,
+        CNVMouseOverTooltipsPadding: "3px",
+        CNVMouseOverTooltipsBorderRadius: "3px",
+        CNVMouseOverTooltipsOpacity: 0.8,
+
+        // Heatmap
+        HEATMAPMouseEvent: true,
+        HEATMAPMouseClickDisplay: false,
+        HEATMAPMouseClickColor: "green",            //"none","red"
+        HEATMAPMouseClickOpacity: 1.0,            //"none",1.0
+        HEATMAPMouseClickStrokeColor: "none",  //"none","#F26223"
+        HEATMAPMouseClickStrokeWidth: "none",          //"none",3
+        HEATMAPMouseDownDisplay: false,
+        HEATMAPMouseDownColor: "green",            //"none","red"
+        HEATMAPMouseDownOpacity: 1.0,            //"none",1.0
+        HEATMAPMouseDownStrokeColor: "none",  //"none","#F26223"
+        HEATMAPMouseDownStrokeWidth: "none",          //"none",3
+        HEATMAPMouseEnterDisplay: false,
+        HEATMAPMouseEnterColor: "green",            //"none","red"
+        HEATMAPMouseEnterOpacity: 1.0,            //"none",1.0
+        HEATMAPMouseEnterStrokeColor: "none",  //"none","#F26223"
+        HEATMAPMouseEnterStrokeWidth: "none",          //"none",3
+        HEATMAPMouseLeaveDisplay: false,
+        HEATMAPMouseLeaveColor: "green",            //"none","red"
+        HEATMAPMouseLeaveOpacity: 1.0,            //"none",1.0
+        HEATMAPMouseLeaveStrokeColor: "none",  //"none","#F26223"
+        HEATMAPMouseLeaveStrokeWidth: "none",          //"none",3
+        HEATMAPMouseMoveDisplay: false,
+        HEATMAPMouseMoveColor: "green",            //"none","red"
+        HEATMAPMouseMoveOpacity: 1.0,            //"none",1.0
+        HEATMAPMouseMoveStrokeColor: "none",  //"none","#F26223"
+        HEATMAPMouseMoveStrokeWidth: "none",          //"none",3
+        HEATMAPMouseOutDisplay: false,
+        HEATMAPMouseOutAnimationTime: 500,
+        HEATMAPMouseOutColor: "green",            //"none","red"
+        HEATMAPMouseOutOpacity: 1.0,            //"none",1.0
+        HEATMAPMouseOutStrokeColor: "none",  //"none","#F26223"
+        HEATMAPMouseOutStrokeWidth: "none",          //"none",3
+        HEATMAPMouseUpDisplay: false,
+        HEATMAPMouseUpColor: "green",            //"none","red"
+        HEATMAPMouseUpOpacity: 1.0,            //"none",1.0
+        HEATMAPMouseUpStrokeColor: "none",  //"none","#F26223"
+        HEATMAPMouseUpStrokeWidth: "none",          //"none",3
+        HEATMAPMouseOverDisplay: false,
+        HEATMAPMouseOverColor: "none",            //"none","red"
+        HEATMAPMouseOverOpacity: 1.0,            //"none",1.0
+        HEATMAPMouseOverStrokeColor: "none",  //"none","#F26223"
+        HEATMAPMouseOverStrokeWidth: "none",          //"none",3
+
+        // Histogram
+        HISTOGRAMMouseEvent: true,
+        HISTOGRAMMouseClickDisplay: false,
+        HISTOGRAMMouseClickColor: "red",            //"none","red"
+        HISTOGRAMMouseClickOpacity: 1.0,            //"none",1.0
+        HISTOGRAMMouseClickStrokeColor: "none",  //"none","#F26223"
+        HISTOGRAMMouseClickStrokeWidth: "none",          //"none",3
+        HISTOGRAMMouseDownDisplay: false,
+        HISTOGRAMMouseDownColor: "red",            //"none","red"
+        HISTOGRAMMouseDownOpacity: 1.0,            //"none",1.0
+        HISTOGRAMMouseDownStrokeColor: "none",  //"none","#F26223"
+        HISTOGRAMMouseDownStrokeWidth: "none",          //"none",3
+        HISTOGRAMMouseEnterDisplay: false,
+        HISTOGRAMMouseEnterColor: "red",            //"none","red"
+        HISTOGRAMMouseEnterOpacity: 1.0,            //"none",1.0
+        HISTOGRAMMouseEnterStrokeColor: "none",  //"none","#F26223"
+        HISTOGRAMMouseEnterStrokeWidth: "none",          //"none",3
+        HISTOGRAMMouseLeaveDisplay: false,
+        HISTOGRAMMouseLeaveColor: "red",            //"none","red"
+        HISTOGRAMMouseLeaveOpacity: 1.0,            //"none",1.0
+        HISTOGRAMMouseLeaveStrokeColor: "none",  //"none","#F26223"
+        HISTOGRAMMouseLeaveStrokeWidth: "none",          //"none",3
+        HISTOGRAMMouseMoveDisplay: false,
+        HISTOGRAMMouseMoveColor: "red",            //"none","red"
+        HISTOGRAMMouseMoveOpacity: 1.0,            //"none",1.0
+        HISTOGRAMMouseMoveStrokeColor: "none",  //"none","#F26223"
+        HISTOGRAMMouseMoveStrokeWidth: "none",          //"none",3
+        HISTOGRAMMouseOutDisplay: false,
+        HISTOGRAMMouseOutAnimationTime: 500,
+        HISTOGRAMMouseOutColor: "red",            //"none","red"
+        HISTOGRAMMouseOutOpacity: 1.0,            //"none",1.0
+        HISTOGRAMMouseOutStrokeColor: "none",  //"none","#F26223"
+        HISTOGRAMMouseOutStrokeWidth: "none",          //"none",3
+        HISTOGRAMMouseUpDisplay: false,
+        HISTOGRAMMouseUpColor: "red",            //"none","red"
+        HISTOGRAMMouseUpOpacity: 1.0,            //"none",1.0
+        HISTOGRAMMouseUpStrokeColor: "none",  //"none","#F26223"
+        HISTOGRAMMouseUpStrokeWidth: "none",          //"none",3
+        HISTOGRAMMouseOverDisplay: false,
+        HISTOGRAMMouseOverColor: "red",            //"none","red"
+        HISTOGRAMMouseOverOpacity: 1.0,            //"none",1.0
+        HISTOGRAMMouseOverStrokeColor: "none",  //"none","#F26223"
+        HISTOGRAMMouseOverStrokeWidth: "none",          //"none",3
+
+        // LINE
+        LINEMouseEvent: true,
+        LINEMouseClickDisplay: true,
+        LINEMouseClickLineOpacity: 1,           //"none"
+        LINEMouseClickLineStrokeColor: "red",   //"none"
+        LINEMouseClickLineStrokeWidth: "none",  //"none"
+        LINEMouseDownDisplay: false,
+        LINEMouseDownLineOpacity: 1,           //"none"
+        LINEMouseDownLineStrokeColor: "red",   //"none"
+        LINEMouseDownLineStrokeWidth: "none",  //"none"
+        LINEMouseEnterDisplay: false,
+        LINEMouseEnterLineOpacity: 1,           //"none"
+        LINEMouseEnterLineStrokeColor: "red",   //"none"
+        LINEMouseEnterLineStrokeWidth: "none",  //"none"
+        LINEMouseLeaveDisplay: false,
+        LINEMouseLeaveLineOpacity: 1,           //"none"
+        LINEMouseLeaveLineStrokeColor: "red",   //"none"
+        LINEMouseLeaveLineStrokeWidth: "none",  //"none"
+        LINEMouseMoveDisplay: false,
+        LINEMouseMoveLineOpacity: 1,           //"none"
+        LINEMouseMoveLineStrokeColor: "red",   //"none"
+        LINEMouseMoveLineStrokeWidth: "none",  //"none"
+        LINEMouseOutDisplay: false,
+        LINEMouseOutAnimationTime: 500,
+        LINEMouseOutLineOpacity: 1.0,   //"none"
+        LINEMouseOutLineStrokeColor: "red",    //"none"
+        LINEMouseOutLineStrokeWidth: "none",    //"none"
+        LINEMouseUpDisplay: false,
+        LINEMouseUpLineOpacity: 1,           //"none"
+        LINEMouseUpLineStrokeColor: "red",   //"none"
+        LINEMouseUpLineStrokeWidth: "none",  //"none"
+        LINEMouseOverDisplay: false,
+        LINEMouseOverLineOpacity: 1,           //"none"
+        LINEMouseOverLineStrokeColor: "red",   //"none"
+        LINEMouseOverLineStrokeWidth: "none",  //"none"
+
+        // LINK
+        LINKMouseEvent: true,
+        LINKMouseClickDisplay: true,
+        LINKMouseClickOpacity: 1.0,
+        LINKMouseClickStrokeColor: "green",
+        LINKMouseClickStrokeWidth: 4,
+        LINKMouseDownDisplay: false,
+        LINKMouseDownOpacity: 1.0,
+        LINKMouseDownStrokeColor: "#F26223",
+        LINKMouseDownStrokeWidth: 4,
+        LINKMouseEnterDisplay: false,
+        LINKMouseEnterOpacity: 1.0,
+        LINKMouseEnterStrokeColor: "#F26223",
+        LINKMouseEnterStrokeWidth: 4,
+        LINKMouseLeaveDisplay: false,
+        LINKMouseLeaveOpacity: 1.0,
+        LINKMouseLeaveStrokeColor: "#F26223",
+        LINKMouseLeaveStrokeWidth: 4,
+        LINKMouseMoveDisplay: false,
+        LINKMouseMoveOpacity: 1.0,
+        LINKMouseMoveStrokeColor: "#F26223",
+        LINKMouseMoveStrokeWidth: 4,
+        LINKMouseOutDisplay: false,
+        LINKMouseOutAnimationTime: 500,
+        LINKMouseOutOpacity: 1.0,
+        LINKMouseOutStrokeColor: "red",
+        LINKMouseOutStrokeWidth: 4,
+        LINKMouseUpDisplay: false,
+        LINKMouseUpOpacity: 1.0,
+        LINKMouseUpStrokeColor: "#F26223",
+        LINKMouseUpStrokeWidth: 4,
+        LINKLabelDragEvent: true,
+
+        // SNP
+        SNPMouseEvent: true,
+        SNPMouseClickDisplay: false,
+        SNPMouseClickColor: "red",
+        SNPMouseClickCircleSize: 4,
+        SNPMouseClickCircleOpacity: 1.0,
+        SNPMouseClickCircleStrokeColor: "#F26223",
+        SNPMouseClickCircleStrokeWidth: 0,
+        SNPMouseClickTextFromData: "fourth",
+        SNPMouseClickTextOpacity: 1.0,
+        SNPMouseClickTextColor: "red",
+        SNPMouseClickTextSize: 8,
+        SNPMouseClickTextPostionX: 1.0,
+        SNPMouseClickTextPostionY: 10.0,
+        SNPMouseClickTextDrag: true,
+        SNPMouseDownDisplay: false,
+        SNPMouseDownColor: "green",
+        SNPMouseDownCircleSize: 4,
+        SNPMouseDownCircleOpacity: 1.0,
+        SNPMouseDownCircleStrokeColor: "#F26223",
+        SNPMouseDownCircleStrokeWidth: 0,
+        SNPMouseEnterDisplay: false,
+        SNPMouseEnterColor: "yellow",
+        SNPMouseEnterCircleSize: 4,
+        SNPMouseEnterCircleOpacity: 1.0,
+        SNPMouseEnterCircleStrokeColor: "#F26223",
+        SNPMouseEnterCircleStrokeWidth: 0,
+        SNPMouseLeaveDisplay: false,
+        SNPMouseLeaveColor: "pink",
+        SNPMouseLeaveCircleSize: 4,
+        SNPMouseLeaveCircleOpacity: 1.0,
+        SNPMouseLeaveCircleStrokeColor: "#F26223",
+        SNPMouseLeaveCircleStrokeWidth: 0,
+        SNPMouseMoveDisplay: false,
+        SNPMouseMoveColor: "red",
+        SNPMouseMoveCircleSize: 2,
+        SNPMouseMoveCircleOpacity: 1.0,
+        SNPMouseMoveCircleStrokeColor: "#F26223",
+        SNPMouseMoveCircleStrokeWidth: 0,
+        SNPMouseOutDisplay: false,
+        SNPMouseOutAnimationTime: 500,
+        SNPMouseOutColor: "red",
+        SNPMouseOutCircleSize: 2,
+        SNPMouseOutCircleOpacity: 1.0,
+        SNPMouseOutCircleStrokeColor: "red",
+        SNPMouseOutCircleStrokeWidth: 0,
+        SNPMouseUpDisplay: false,
+        SNPMouseUpColor: "grey",
+        SNPMouseUpCircleSize: 4,
+        SNPMouseUpCircleOpacity: 1.0,
+        SNPMouseUpCircleStrokeColor: "#F26223",
+        SNPMouseUpCircleStrokeWidth: 0,
+        SNPMouseOverDisplay: true,
+        SNPMouseOverColor: "red",
+        SNPMouseOverCircleSize: 2,
+        SNPMouseOverCircleOpacity: 1.0,
+        SNPMouseOverCircleStrokeColor: "#F26223",
+        SNPMouseOverCircleStrokeWidth: 3,
+
+        // scatter
+        SCATTERMouseEvent: true,
+        SCATTERMouseClickDisplay: true,
+        SCATTERMouseClickColor: "red",
+        SCATTERMouseClickCircleSize: 4,
+        SCATTERMouseClickCircleOpacity: 1.0,
+        SCATTERMouseClickCircleStrokeColor: "#F26223",
+        SCATTERMouseClickCircleStrokeWidth: 0,
+        SCATTERMouseClickTextFromData: "fourth",
+        SCATTERMouseClickTextOpacity: 1,
+        SCATTERMouseClickTextColor: "red",
+        SCATTERMouseClickTextSize: 12,
+        SCATTERMouseClickTextPostionX: 1.0,
+        SCATTERMouseClickTextPostionY: 10.0,
+        SCATTERMouseClickTextDrag: true,
+        SCATTERMouseDownDisplay: false,
+        SCATTERMouseDownColor: "green",
+        SCATTERMouseDownCircleSize: 4,
+        SCATTERMouseDownCircleOpacity: 1.0,
+        SCATTERMouseDownCircleStrokeColor: "#F26223",
+        SCATTERMouseDownCircleStrokeWidth: 0,
+        SCATTERMouseEnterDisplay: false,
+        SCATTERMouseEnterColor: "yellow",
+        SCATTERMouseEnterCircleSize: 4,
+        SCATTERMouseEnterCircleOpacity: 1.0,
+        SCATTERMouseEnterCircleStrokeColor: "#F26223",
+        SCATTERMouseEnterCircleStrokeWidth: 0,
+        SCATTERMouseLeaveDisplay: false,
+        SCATTERMouseLeaveColor: "pink",
+        SCATTERMouseLeaveCircleSize: 4,
+        SCATTERMouseLeaveCircleOpacity: 1.0,
+        SCATTERMouseLeaveCircleStrokeColor: "#F26223",
+        SCATTERMouseLeaveCircleStrokeWidth: 0,
+        SCATTERMouseMoveDisplay: false,
+        SCATTERMouseMoveColor: "red",
+        SCATTERMouseMoveCircleSize: 2,
+        SCATTERMouseMoveCircleOpacity: 1.0,
+        SCATTERMouseMoveCircleStrokeColor: "#F26223",
+        SCATTERMouseMoveCircleStrokeWidth: 0,
+        SCATTERMouseOutDisplay: false,
+        SCATTERMouseOutAnimationTime: 500,
+        SCATTERMouseOutColor: "red",
+        SCATTERMouseOutCircleSize: 2,
+        SCATTERMouseOutCircleOpacity: 1.0,
+        SCATTERMouseOutCircleStrokeColor: "red",
+        SCATTERMouseOutCircleStrokeWidth: 0,
+        SCATTERMouseUpDisplay: false,
+        SCATTERMouseUpColor: "grey",
+        SCATTERMouseUpCircleSize: 4,
+        SCATTERMouseUpCircleOpacity: 1.0,
+        SCATTERMouseUpCircleStrokeColor: "#F26223",
+        SCATTERMouseUpCircleStrokeWidth: 0,
+        SCATTERMouseOverDisplay: false,
+        SCATTERMouseOverColor: "red",
+        SCATTERMouseOverCircleSize: 2,
+        SCATTERMouseOverCircleOpacity: 1.0,
+        SCATTERMouseOverCircleStrokeColor: "#F26223",
+        SCATTERMouseOverCircleStrokeWidth: 3,
+    });
+
+    BioCircos01.draw_genome(BioCircos01.genomeLength);
+</script>
+
+</body>
+</html>

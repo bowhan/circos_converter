@@ -1,24 +1,26 @@
 #pragma once
 
 #include "policy.hpp"
+#include "bolib/utils/log.hpp"
+#include <stdio.h>
+#include <inttypes.h>
 #include <string>
 #include <vector>
 
-class Text {
+struct Text {
+    std::string name_;
 
+    Text(char *n)
+        : name_(n) {}
 };
 
 template < >
 struct FormatReader<Text> {
-    std::vector<Text> Read(const char *file) {
-
-    }
+    std::vector<Text> Read(const char *file);
 };
 
 template < >
 struct FormatConverter<Text> {
-    void Parse(const std::vector<Text>& data) {
-
-    }
+    void Parse(const std::vector<Text>& data);
 };
 

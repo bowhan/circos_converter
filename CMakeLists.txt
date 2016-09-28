@@ -1,7 +1,4 @@
-cmake_minimum_required(VERSION 3.2)
-project(BiocircosConverter)
 include_directories(include)
-include_directories($ENV{BOLIB})
 add_executable(main
         src/main.cpp
 
@@ -23,6 +20,16 @@ add_executable(main
         include/parser_commands.hpp
 
         src/driver.cpp
+        src/Arc.cpp
+        src/Background.cpp
+        src/Cnv.cpp
+        src/Heatmap.cpp
+        src/Histogram.cpp
+        src/Line.cpp
+        src/Link.cpp
+        src/Scatter.cpp
+        src/Snp.cpp
+        src/Text.cpp
         src/parse_commands.cpp
         )
 

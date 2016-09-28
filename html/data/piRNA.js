@@ -1,0 +1,5554 @@
+var SNP_01 = [ "SNP_01" , {
+    maxRadius: 205,
+    minRadius: 153,
+    SNPFillColor: "#9400D3",
+    PointType: "circle",
+    circleSize: 2,
+    rectWidth: 2,
+    rectHeight: 2
+} , [{
+    chr: "chr3R",
+    pos: "6233912",
+    value: "1.000000",
+    des: "1",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698454",
+    value: "1.000000",
+    des: "2",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "857596",
+    value: "1.000000",
+    des: "3",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "8141567",
+    value: "1.000000",
+    des: "4",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "5508765",
+    value: "1.000000",
+    des: "5",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3251081",
+    value: "1.000000",
+    des: "6",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10032872",
+    value: "1.000000",
+    des: "7",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15402044",
+    value: "1.000000",
+    des: "8",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "8057714",
+    value: "1.000000",
+    des: "9",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "5508810",
+    value: "1.000000",
+    des: "10",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "11544587",
+    value: "1.000000",
+    des: "11",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425813",
+    value: "1.000000",
+    des: "12",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9216963",
+    value: "1.000000",
+    des: "13",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "8377301",
+    value: "1.000000",
+    des: "14",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471601",
+    value: "1.000000",
+    des: "15",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471600",
+    value: "1.000000",
+    des: "16",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25041372",
+    value: "1.000000",
+    des: "17",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5926724",
+    value: "1.000000",
+    des: "18",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6234066",
+    value: "1.000000",
+    des: "19",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "15548706",
+    value: "1.000000",
+    des: "20",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "8046391",
+    value: "1.000000",
+    des: "21",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "8377304",
+    value: "1.000000",
+    des: "22",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5925801",
+    value: "2.000000",
+    des: "23",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5925801",
+    value: "1.000000",
+    des: "24",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425982",
+    value: "1.000000",
+    des: "25",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8985265",
+    value: "1.000000",
+    des: "26",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233871",
+    value: "1.000000",
+    des: "27",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "11766841",
+    value: "1.000000",
+    des: "28",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7426004",
+    value: "1.000000",
+    des: "29",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7426016",
+    value: "2.000000",
+    des: "30",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "11604311",
+    value: "1.000000",
+    des: "31",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8887426",
+    value: "1.000000",
+    des: "32",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471739",
+    value: "1.000000",
+    des: "33",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698612",
+    value: "2.000000",
+    des: "34",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425978",
+    value: "2.000000",
+    des: "35",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "15524935",
+    value: "1.000000",
+    des: "36",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "11953466",
+    value: "3.000000",
+    des: "37",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "2635238",
+    value: "1.000000",
+    des: "38",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17447694",
+    value: "2.000000",
+    des: "39",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "5441306",
+    value: "5.000000",
+    des: "40",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "1267688",
+    value: "1.000000",
+    des: "41",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10032871",
+    value: "10.000000",
+    des: "42",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15403002",
+    value: "6.000000",
+    des: "43",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15402008",
+    value: "1.000000",
+    des: "44",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "11544626",
+    value: "2.000000",
+    des: "45",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15403042",
+    value: "1.000000",
+    des: "46",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "12682036",
+    value: "1.000000",
+    des: "47",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "19791087",
+    value: "2.000000",
+    des: "48",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "22662404",
+    value: "9.000000",
+    des: "49",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16472719",
+    value: "1.000000",
+    des: "50",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698757",
+    value: "6.000000",
+    des: "51",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471392",
+    value: "8.000000",
+    des: "52",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471737",
+    value: "1.000000",
+    des: "53",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "21167449",
+    value: "1.000000",
+    des: "54",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233871",
+    value: "1.000000",
+    des: "55",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "19791124",
+    value: "1.000000",
+    des: "56",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12718951",
+    value: "4.000000",
+    des: "57",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "19569535",
+    value: "3.000000",
+    des: "58",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12718951",
+    value: "1.000000",
+    des: "59",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15403511",
+    value: "16.000000",
+    des: "60",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "8377301",
+    value: "1.000000",
+    des: "61",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "10358380",
+    value: "7.000000",
+    des: "62",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "19791124",
+    value: "4.000000",
+    des: "63",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "19569533",
+    value: "1.000000",
+    des: "64",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "11953463",
+    value: "72.000000",
+    des: "65",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16493592",
+    value: "1.000000",
+    des: "66",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17624351",
+    value: "1.000000",
+    des: "67",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5916860",
+    value: "1.000000",
+    des: "68",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471393",
+    value: "1.000000",
+    des: "69",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17142452",
+    value: "1.000000",
+    des: "70",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "21167449",
+    value: "1.000000",
+    des: "71",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698757",
+    value: "1.000000",
+    des: "72",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233915",
+    value: "2.000000",
+    des: "73",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25041372",
+    value: "10.000000",
+    des: "74",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "5641314",
+    value: "2.000000",
+    des: "75",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "642258",
+    value: "5.000000",
+    des: "76",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25042965",
+    value: "1.000000",
+    des: "77",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5926673",
+    value: "2.000000",
+    des: "78",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "11953468",
+    value: "4.000000",
+    des: "79",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425982",
+    value: "1.000000",
+    des: "80",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3251080",
+    value: "111.000000",
+    des: "81",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "9289997",
+    value: "1.000000",
+    des: "82",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "21472281",
+    value: "6.000000",
+    des: "83",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "11766841",
+    value: "7.000000",
+    des: "84",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3251037",
+    value: "1.000000",
+    des: "85",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "8057712",
+    value: "1.000000",
+    des: "86",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8887428",
+    value: "1.000000",
+    des: "87",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9216924",
+    value: "6.000000",
+    des: "88",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425852",
+    value: "2.000000",
+    des: "89",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233869",
+    value: "52.000000",
+    des: "90",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698571",
+    value: "1.000000",
+    des: "91",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5926673",
+    value: "6.000000",
+    des: "92",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "22662405",
+    value: "1.000000",
+    des: "93",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425853",
+    value: "1.000000",
+    des: "94",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12718988",
+    value: "22.000000",
+    des: "95",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233870",
+    value: "11.000000",
+    des: "96",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "20484360",
+    value: "1.000000",
+    des: "97",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698757",
+    value: "1.000000",
+    des: "98",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233913",
+    value: "1.000000",
+    des: "99",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698757",
+    value: "32.000000",
+    des: "100",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233869",
+    value: "4.000000",
+    des: "101",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10032873",
+    value: "18.000000",
+    des: "102",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233916",
+    value: "1.000000",
+    des: "103",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15403002",
+    value: "1.000000",
+    des: "104",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "9289996",
+    value: "15.000000",
+    des: "105",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "8057716",
+    value: "4.000000",
+    des: "106",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "527739",
+    value: "1.000000",
+    des: "107",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16697935",
+    value: "128.000000",
+    des: "108",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15402009",
+    value: "5.000000",
+    des: "109",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "857595",
+    value: "1.000000",
+    des: "110",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "19570236",
+    value: "2.000000",
+    des: "111",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698417",
+    value: "17.000000",
+    des: "112",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12718989",
+    value: "1.000000",
+    des: "113",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10103345",
+    value: "6.000000",
+    des: "114",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425983",
+    value: "2.000000",
+    des: "115",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698454",
+    value: "17.000000",
+    des: "116",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233872",
+    value: "2.000000",
+    des: "117",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "11544626",
+    value: "2.000000",
+    des: "118",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10032870",
+    value: "10.000000",
+    des: "119",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698417",
+    value: "2.000000",
+    des: "120",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233869",
+    value: "284.000000",
+    des: "121",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233868",
+    value: "2.000000",
+    des: "122",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "642258",
+    value: "3.000000",
+    des: "123",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233870",
+    value: "15.000000",
+    des: "124",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "19570233",
+    value: "2.000000",
+    des: "125",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233869",
+    value: "73.000000",
+    des: "126",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "21477178",
+    value: "42.000000",
+    des: "127",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16697935",
+    value: "52.000000",
+    des: "128",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471600",
+    value: "10.000000",
+    des: "129",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425978",
+    value: "6.000000",
+    des: "130",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15403511",
+    value: "3.000000",
+    des: "131",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "5068587",
+    value: "1.000000",
+    des: "132",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "19569533",
+    value: "33.000000",
+    des: "133",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "11953462",
+    value: "2.000000",
+    des: "134",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "857596",
+    value: "1.000000",
+    des: "135",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9216924",
+    value: "310.000000",
+    des: "136",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698757",
+    value: "276.000000",
+    des: "137",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "19791125",
+    value: "1.000000",
+    des: "138",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "8377301",
+    value: "24.000000",
+    des: "139",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10103309",
+    value: "10.000000",
+    des: "140",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471395",
+    value: "4.000000",
+    des: "141",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6234065",
+    value: "35.000000",
+    des: "142",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17142438",
+    value: "1.000000",
+    des: "143",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3251037",
+    value: "204.000000",
+    des: "144",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25041372",
+    value: "4.000000",
+    des: "145",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "10358380",
+    value: "9.000000",
+    des: "146",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425852",
+    value: "9.000000",
+    des: "147",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15403511",
+    value: "1.000000",
+    des: "148",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5925801",
+    value: "3.000000",
+    des: "149",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "21477178",
+    value: "6.000000",
+    des: "150",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "21472281",
+    value: "15.000000",
+    des: "151",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698757",
+    value: "11.000000",
+    des: "152",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "13609987",
+    value: "1.000000",
+    des: "153",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425853",
+    value: "1.000000",
+    des: "154",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233869",
+    value: "5.000000",
+    des: "155",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15402008",
+    value: "53.000000",
+    des: "156",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "8046429",
+    value: "22.000000",
+    des: "157",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15403002",
+    value: "19.000000",
+    des: "158",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "11953467",
+    value: "5.000000",
+    des: "159",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "21472243",
+    value: "6.000000",
+    des: "160",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12718988",
+    value: "329.000000",
+    des: "161",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25042923",
+    value: "2.000000",
+    des: "162",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "19791085",
+    value: "624.000000",
+    des: "163",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "11953462",
+    value: "1.000000",
+    des: "164",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "2635233",
+    value: "2.000000",
+    des: "165",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12718988",
+    value: "31.000000",
+    des: "166",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "18471444",
+    value: "1.000000",
+    des: "167",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6234065",
+    value: "22.000000",
+    des: "168",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "857595",
+    value: "1.000000",
+    des: "169",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425978",
+    value: "3.000000",
+    des: "170",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17448226",
+    value: "16.000000",
+    des: "171",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "6773037",
+    value: "1.000000",
+    des: "172",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "11953464",
+    value: "7.000000",
+    des: "173",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "2635236",
+    value: "3.000000",
+    des: "174",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3251037",
+    value: "30.000000",
+    des: "175",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "642258",
+    value: "4.000000",
+    des: "176",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "243057",
+    value: "2.000000",
+    des: "177",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "21472281",
+    value: "17.000000",
+    des: "178",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6234065",
+    value: "106.000000",
+    des: "179",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10032869",
+    value: "13.000000",
+    des: "180",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471272",
+    value: "4.000000",
+    des: "181",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25042924",
+    value: "3.000000",
+    des: "182",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425978",
+    value: "5.000000",
+    des: "183",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425852",
+    value: "18.000000",
+    des: "184",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15403002",
+    value: "5.000000",
+    des: "185",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "5641080",
+    value: "9.000000",
+    des: "186",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "11953462",
+    value: "5.000000",
+    des: "187",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16697935",
+    value: "15.000000",
+    des: "188",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "8377301",
+    value: "1.000000",
+    des: "189",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "243092",
+    value: "1.000000",
+    des: "190",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25041372",
+    value: "8.000000",
+    des: "191",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425978",
+    value: "309.000000",
+    des: "192",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "21472281",
+    value: "2.000000",
+    des: "193",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12718954",
+    value: "1.000000",
+    des: "194",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8887426",
+    value: "1.000000",
+    des: "195",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15402008",
+    value: "27.000000",
+    des: "196",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425815",
+    value: "1.000000",
+    des: "197",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698417",
+    value: "12.000000",
+    des: "198",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "18472042",
+    value: "3.000000",
+    des: "199",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "8564921",
+    value: "22.000000",
+    des: "200",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233915",
+    value: "27.000000",
+    des: "201",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "19791085",
+    value: "47.000000",
+    des: "202",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "8046428",
+    value: "9.000000",
+    des: "203",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "5441306",
+    value: "1.000000",
+    des: "204",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233868",
+    value: "1.000000",
+    des: "205",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17448225",
+    value: "46.000000",
+    des: "206",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16697957",
+    value: "4.000000",
+    des: "207",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5925801",
+    value: "11.000000",
+    des: "208",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233870",
+    value: "23.000000",
+    des: "209",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "11766840",
+    value: "2.000000",
+    des: "210",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233871",
+    value: "2.000000",
+    des: "211",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15403553",
+    value: "2.000000",
+    des: "212",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15402009",
+    value: "1.000000",
+    des: "213",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "10358380",
+    value: "6.000000",
+    des: "214",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "19791085",
+    value: "18.000000",
+    des: "215",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425979",
+    value: "16.000000",
+    des: "216",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233869",
+    value: "298.000000",
+    des: "217",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25041372",
+    value: "2.000000",
+    des: "218",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698757",
+    value: "9.000000",
+    des: "219",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15402008",
+    value: "3.000000",
+    des: "220",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8985269",
+    value: "1.000000",
+    des: "221",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12718988",
+    value: "42.000000",
+    des: "222",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "22662401",
+    value: "2.000000",
+    des: "223",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25042965",
+    value: "11.000000",
+    des: "224",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25042965",
+    value: "1.000000",
+    des: "225",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425852",
+    value: "11.000000",
+    des: "226",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233917",
+    value: "1.000000",
+    des: "227",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "8377308",
+    value: "1.000000",
+    des: "228",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25042965",
+    value: "4.000000",
+    des: "229",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5926697",
+    value: "2.000000",
+    des: "230",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698417",
+    value: "14.000000",
+    des: "231",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471396",
+    value: "2.000000",
+    des: "232",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "11953462",
+    value: "5.000000",
+    des: "233",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17447640",
+    value: "1.000000",
+    des: "234",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3251037",
+    value: "9.000000",
+    des: "235",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10032872",
+    value: "126.000000",
+    des: "236",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425813",
+    value: "34.000000",
+    des: "237",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17448224",
+    value: "23.000000",
+    des: "238",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6234065",
+    value: "8.000000",
+    des: "239",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3251037",
+    value: "5.000000",
+    des: "240",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471273",
+    value: "8.000000",
+    des: "241",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "9289997",
+    value: "5.000000",
+    des: "242",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17447698",
+    value: "6.000000",
+    des: "243",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698417",
+    value: "2.000000",
+    des: "244",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16697943",
+    value: "1.000000",
+    des: "245",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12718951",
+    value: "20.000000",
+    des: "246",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3251080",
+    value: "1.000000",
+    des: "247",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425978",
+    value: "3.000000",
+    des: "248",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "11650036",
+    value: "1.000000",
+    des: "249",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "5200583",
+    value: "1.000000",
+    des: "250",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3251037",
+    value: "31.000000",
+    des: "251",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25042922",
+    value: "1.000000",
+    des: "252",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "19569534",
+    value: "5.000000",
+    des: "253",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "8057715",
+    value: "1.000000",
+    des: "254",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233870",
+    value: "4.000000",
+    des: "255",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698798",
+    value: "2.000000",
+    des: "256",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233870",
+    value: "5.000000",
+    des: "257",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "11766839",
+    value: "7.000000",
+    des: "258",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16697962",
+    value: "1.000000",
+    des: "259",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425852",
+    value: "3.000000",
+    des: "260",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12718986",
+    value: "1.000000",
+    des: "261",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8887424",
+    value: "1.000000",
+    des: "262",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "642258",
+    value: "8.000000",
+    des: "263",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12718988",
+    value: "142.000000",
+    des: "264",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "8377307",
+    value: "2.000000",
+    des: "265",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17447699",
+    value: "9.000000",
+    des: "266",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "21169347",
+    value: "1.000000",
+    des: "267",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "18118647",
+    value: "1.000000",
+    des: "268",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16697935",
+    value: "1.000000",
+    des: "269",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10032869",
+    value: "1.000000",
+    des: "270",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16697935",
+    value: "13.000000",
+    des: "271",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "8046392",
+    value: "1.000000",
+    des: "272",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3251083",
+    value: "1.000000",
+    des: "273",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15403511",
+    value: "3.000000",
+    des: "274",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698757",
+    value: "10.000000",
+    des: "275",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5916902",
+    value: "1.000000",
+    des: "276",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "5441306",
+    value: "1.000000",
+    des: "277",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "8046427",
+    value: "1.000000",
+    des: "278",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10032990",
+    value: "1.000000",
+    des: "279",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16697935",
+    value: "15.000000",
+    des: "280",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425978",
+    value: "6.000000",
+    des: "281",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "642221",
+    value: "6.000000",
+    des: "282",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "19569534",
+    value: "2.000000",
+    des: "283",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471599",
+    value: "1.000000",
+    des: "284",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5926697",
+    value: "2.000000",
+    des: "285",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425853",
+    value: "1.000000",
+    des: "286",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "16561660",
+    value: "1.000000",
+    des: "287",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "8046392",
+    value: "8.000000",
+    des: "288",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "19569944",
+    value: "1.000000",
+    des: "289",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "857595",
+    value: "8.000000",
+    des: "290",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16697963",
+    value: "1.000000",
+    des: "291",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16472718",
+    value: "2.000000",
+    des: "292",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "10358380",
+    value: "3.000000",
+    des: "293",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698417",
+    value: "5.000000",
+    des: "294",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471393",
+    value: "5.000000",
+    des: "295",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16472277",
+    value: "1.000000",
+    des: "296",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3251038",
+    value: "2.000000",
+    des: "297",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "11766180",
+    value: "1.000000",
+    des: "298",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698454",
+    value: "1.000000",
+    des: "299",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17448227",
+    value: "1.000000",
+    des: "300",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "19791085",
+    value: "2.000000",
+    des: "301",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "16561698",
+    value: "2.000000",
+    des: "302",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "21477178",
+    value: "5.000000",
+    des: "303",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233915",
+    value: "19.000000",
+    des: "304",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9216924",
+    value: "2.000000",
+    des: "305",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5925801",
+    value: "1.000000",
+    des: "306",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "243097",
+    value: "1.000000",
+    des: "307",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "5441306",
+    value: "1.000000",
+    des: "308",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "11766842",
+    value: "12.000000",
+    des: "309",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "11766840",
+    value: "1.000000",
+    des: "310",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "8377303",
+    value: "1.000000",
+    des: "311",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233872",
+    value: "1.000000",
+    des: "312",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "11766843",
+    value: "1.000000",
+    des: "313",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471270",
+    value: "1.000000",
+    des: "314",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "20487495",
+    value: "2.000000",
+    des: "315",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "8046393",
+    value: "1.000000",
+    des: "316",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12718988",
+    value: "46.000000",
+    des: "317",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "21477179",
+    value: "4.000000",
+    des: "318",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "5441306",
+    value: "2.000000",
+    des: "319",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471603",
+    value: "1.000000",
+    des: "320",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "8564921",
+    value: "1.000000",
+    des: "321",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "11766180",
+    value: "5.000000",
+    des: "322",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "642258",
+    value: "5.000000",
+    des: "323",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10032961",
+    value: "2.000000",
+    des: "324",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9216923",
+    value: "2.000000",
+    des: "325",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233868",
+    value: "3.000000",
+    des: "326",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10120667",
+    value: "1.000000",
+    des: "327",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15403511",
+    value: "1.000000",
+    des: "328",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "21169306",
+    value: "1.000000",
+    des: "329",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "10358380",
+    value: "1.000000",
+    des: "330",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "8046430",
+    value: "2.000000",
+    des: "331",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "8564921",
+    value: "1.000000",
+    des: "332",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "14093577",
+    value: "1.000000",
+    des: "333",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15403002",
+    value: "6.000000",
+    des: "334",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "6773037",
+    value: "1.000000",
+    des: "335",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6233912",
+    value: "1.000000",
+    des: "336",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17448263",
+    value: "1.000000",
+    des: "337",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425852",
+    value: "13.000000",
+    des: "338",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15403511",
+    value: "3.000000",
+    des: "339",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "11953465",
+    value: "1.000000",
+    des: "340",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "18471483",
+    value: "1.000000",
+    des: "341",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "16561659",
+    value: "1.000000",
+    des: "342",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "21477178",
+    value: "2.000000",
+    des: "343",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5916902",
+    value: "1.000000",
+    des: "344",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "6979802",
+    value: "1.000000",
+    des: "345",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "8564922",
+    value: "1.000000",
+    des: "346",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9216961",
+    value: "1.000000",
+    des: "347",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "642258",
+    value: "5.000000",
+    des: "348",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2RHet",
+    pos: "1322896",
+    value: "0.333333",
+    des: "349",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2RHet",
+    pos: "549436",
+    value: "0.333333",
+    des: "350",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3LHet",
+    pos: "1092010",
+    value: "0.333333",
+    des: "351",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "22687110",
+    value: "1.000000",
+    des: "352",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698455",
+    value: "1.000000",
+    des: "353",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471563",
+    value: "1.000000",
+    des: "354",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471562",
+    value: "1.000000",
+    des: "355",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698758",
+    value: "1.000000",
+    des: "356",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16493589",
+    value: "1.000000",
+    des: "357",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12718989",
+    value: "1.000000",
+    des: "358",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "21472243",
+    value: "2.000000",
+    des: "359",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471391",
+    value: "2.000000",
+    des: "360",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698571",
+    value: "1.000000",
+    des: "361",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "11953462",
+    value: "362.000000",
+    des: "362",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "8377306",
+    value: "1.000000",
+    des: "363",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425852",
+    value: "80.000000",
+    des: "364",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "16561698",
+    value: "3.000000",
+    des: "365",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "11650036",
+    value: "8.000000",
+    des: "366",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3251060",
+    value: "1.000000",
+    des: "367",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7425980",
+    value: "2.000000",
+    des: "368",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16697957",
+    value: "2.000000",
+    des: "369",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "8046431",
+    value: "1.000000",
+    des: "370",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "11766842",
+    value: "36.000000",
+    des: "371",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471565",
+    value: "1.000000",
+    des: "372",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25042945",
+    value: "1.000000",
+    des: "373",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16471271",
+    value: "2.000000",
+    des: "374",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "18118647",
+    value: "2.000000",
+    des: "375",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6234065",
+    value: "25.000000",
+    des: "376",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "11766180",
+    value: "2.000000",
+    des: "377",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "8377302",
+    value: "50.000000",
+    des: "378",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10032869",
+    value: "1.000000",
+    des: "379",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "18118647",
+    value: "1.000000",
+    des: "380",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8985265",
+    value: "1.000000",
+    des: "381",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5916860",
+    value: "1.000000",
+    des: "382",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16698758",
+    value: "2.000000",
+    des: "383",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "22662442",
+    value: "1.000000",
+    des: "384",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16678251",
+    value: "1.000000",
+    des: "385",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16697935",
+    value: "1.000000",
+    des: "386",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "21472281",
+    value: "7.000000",
+    des: "387",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "16561698",
+    value: "2.000000",
+    des: "388",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "6119863",
+    value: "0.001866",
+    des: "389",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "6713028",
+    value: "0.001866",
+    des: "390",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16484332",
+    value: "0.001866",
+    des: "391",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "14744589",
+    value: "0.001866",
+    des: "392",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16079043",
+    value: "0.001866",
+    des: "393",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "19725058",
+    value: "0.001866",
+    des: "394",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12586248",
+    value: "0.001866",
+    des: "395",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "12537372",
+    value: "0.001866",
+    des: "396",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "2735282",
+    value: "0.001866",
+    des: "397",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "6943631",
+    value: "0.001866",
+    des: "398",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "17963917",
+    value: "0.001866",
+    des: "399",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "3628142",
+    value: "0.001866",
+    des: "400",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "19675783",
+    value: "0.001866",
+    des: "401",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "3605726",
+    value: "0.001866",
+    des: "402",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8179364",
+    value: "0.001866",
+    des: "403",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "14106466",
+    value: "0.001866",
+    des: "404",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "2789612",
+    value: "0.001866",
+    des: "405",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9950002",
+    value: "0.001866",
+    des: "406",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17977204",
+    value: "0.001866",
+    des: "407",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "4348739",
+    value: "0.001866",
+    des: "408",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "14248528",
+    value: "0.001866",
+    des: "409",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12581009",
+    value: "0.001866",
+    des: "410",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12584520",
+    value: "0.001866",
+    des: "411",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12586902",
+    value: "0.001866",
+    des: "412",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12609092",
+    value: "0.001866",
+    des: "413",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "17058697",
+    value: "0.001866",
+    des: "414",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "17834931",
+    value: "0.001866",
+    des: "415",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8951246",
+    value: "0.001866",
+    des: "416",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "3993010",
+    value: "0.001866",
+    des: "417",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "4973763",
+    value: "0.001866",
+    des: "418",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "20475756",
+    value: "0.001866",
+    des: "419",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "3605891",
+    value: "0.001866",
+    des: "420",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "7757943",
+    value: "0.001866",
+    des: "421",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "911376",
+    value: "0.001866",
+    des: "422",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "13079562",
+    value: "0.001866",
+    des: "423",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8343112",
+    value: "0.001866",
+    des: "424",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2RHet",
+    pos: "1358366",
+    value: "0.001866",
+    des: "425",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrUextra",
+    pos: "20228251",
+    value: "0.001866",
+    des: "426",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15503120",
+    value: "0.001866",
+    des: "427",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "9910818",
+    value: "0.001866",
+    des: "428",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "2013943",
+    value: "0.001866",
+    des: "429",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "2023859",
+    value: "0.001866",
+    des: "430",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "7865333",
+    value: "0.001866",
+    des: "431",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5058108",
+    value: "0.001866",
+    des: "432",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "14916648",
+    value: "0.001866",
+    des: "433",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "13730802",
+    value: "0.001866",
+    des: "434",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "14744712",
+    value: "0.001866",
+    des: "435",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "14168760",
+    value: "0.001866",
+    des: "436",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "1141304",
+    value: "0.001866",
+    des: "437",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12418029",
+    value: "0.001866",
+    des: "438",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "4971032",
+    value: "0.001866",
+    des: "439",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "14020868",
+    value: "0.001866",
+    des: "440",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "2022999",
+    value: "0.001866",
+    des: "441",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "2013086",
+    value: "0.001866",
+    des: "442",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "7415080",
+    value: "0.001866",
+    des: "443",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "4778091",
+    value: "0.001866",
+    des: "444",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "27460209",
+    value: "0.001866",
+    des: "445",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "3250145",
+    value: "0.001866",
+    des: "446",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "11540542",
+    value: "0.001866",
+    des: "447",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12625188",
+    value: "0.001866",
+    des: "448",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "11739807",
+    value: "0.001866",
+    des: "449",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "17556985",
+    value: "0.001866",
+    des: "450",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "464646",
+    value: "0.001866",
+    des: "451",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5301400",
+    value: "0.001866",
+    des: "452",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "2721681",
+    value: "0.001866",
+    des: "453",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "12536577",
+    value: "0.001866",
+    des: "454",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "6742427",
+    value: "0.001866",
+    des: "455",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "19555419",
+    value: "0.001866",
+    des: "456",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "16645930",
+    value: "0.001866",
+    des: "457",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16094728",
+    value: "0.001866",
+    des: "458",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "18026140",
+    value: "0.001866",
+    des: "459",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3403958",
+    value: "0.001866",
+    des: "460",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17597224",
+    value: "0.001866",
+    des: "461",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "10831835",
+    value: "0.001866",
+    des: "462",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "5423605",
+    value: "0.001866",
+    des: "463",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12963263",
+    value: "0.001866",
+    des: "464",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "1038718",
+    value: "0.001866",
+    des: "465",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "9834016",
+    value: "0.001866",
+    des: "466",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "9552524",
+    value: "0.001866",
+    des: "467",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "13809048",
+    value: "0.001866",
+    des: "468",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "3781726",
+    value: "0.001866",
+    des: "469",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "19237509",
+    value: "0.001866",
+    des: "470",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "3398197",
+    value: "0.001866",
+    des: "471",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "7819546",
+    value: "0.001866",
+    des: "472",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "4645483",
+    value: "0.001866",
+    des: "473",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "2794645",
+    value: "0.001866",
+    des: "474",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "5837084",
+    value: "0.001866",
+    des: "475",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "11670803",
+    value: "0.001866",
+    des: "476",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "6877419",
+    value: "0.001866",
+    des: "477",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "6877886",
+    value: "0.001866",
+    des: "478",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "20847886",
+    value: "0.001866",
+    des: "479",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "26703938",
+    value: "0.001866",
+    des: "480",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "22791411",
+    value: "0.001866",
+    des: "481",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "14367729",
+    value: "0.001866",
+    des: "482",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "9664306",
+    value: "0.001866",
+    des: "483",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "14016337",
+    value: "0.001866",
+    des: "484",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "21091900",
+    value: "0.001866",
+    des: "485",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "5214146",
+    value: "0.001866",
+    des: "486",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "2322559",
+    value: "0.001866",
+    des: "487",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "2322334",
+    value: "0.001866",
+    des: "488",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "20688978",
+    value: "0.001866",
+    des: "489",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "2789579",
+    value: "0.001866",
+    des: "490",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "14625278",
+    value: "0.001866",
+    des: "491",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "14971620",
+    value: "0.001866",
+    des: "492",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "13503090",
+    value: "0.001866",
+    des: "493",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "3293971",
+    value: "0.001866",
+    des: "494",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "16001538",
+    value: "0.001866",
+    des: "495",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12243208",
+    value: "0.001866",
+    des: "496",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "24489950",
+    value: "0.001866",
+    des: "497",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "12696030",
+    value: "0.001866",
+    des: "498",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "622419",
+    value: "0.001866",
+    des: "499",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "20475702",
+    value: "0.001866",
+    des: "500",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "22262936",
+    value: "0.001866",
+    des: "501",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "13484500",
+    value: "0.001866",
+    des: "502",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "11738394",
+    value: "0.001866",
+    des: "503",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrU",
+    pos: "9977817",
+    value: "0.001866",
+    des: "504",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "10258294",
+    value: "0.001866",
+    des: "505",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "17957171",
+    value: "0.001866",
+    des: "506",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "13933185",
+    value: "0.001866",
+    des: "507",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "13354282",
+    value: "0.001866",
+    des: "508",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "11739051",
+    value: "0.001866",
+    des: "509",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "26618838",
+    value: "0.001866",
+    des: "510",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "6463380",
+    value: "0.001866",
+    des: "511",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8696735",
+    value: "0.001866",
+    des: "512",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17805094",
+    value: "0.001866",
+    des: "513",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "911535",
+    value: "0.001866",
+    des: "514",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "17070597",
+    value: "0.001866",
+    des: "515",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12608225",
+    value: "0.001866",
+    des: "516",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8070279",
+    value: "0.001866",
+    des: "517",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "9803803",
+    value: "0.001866",
+    des: "518",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "1001538",
+    value: "0.001866",
+    des: "519",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "19642512",
+    value: "0.001866",
+    des: "520",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6122186",
+    value: "0.001866",
+    des: "521",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "14319563",
+    value: "0.001866",
+    des: "522",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "13260264",
+    value: "0.001866",
+    des: "523",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9950278",
+    value: "0.001866",
+    des: "524",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "14924153",
+    value: "0.001866",
+    des: "525",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "2561962",
+    value: "0.001866",
+    des: "526",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "20232636",
+    value: "0.001866",
+    des: "527",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "9574002",
+    value: "0.001866",
+    des: "528",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "7470904",
+    value: "0.001866",
+    des: "529",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "6713061",
+    value: "0.001866",
+    des: "530",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17977267",
+    value: "0.001866",
+    des: "531",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "19265678",
+    value: "0.001866",
+    des: "532",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12605218",
+    value: "0.001866",
+    des: "533",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "7824536",
+    value: "0.001866",
+    des: "534",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "16134716",
+    value: "0.001866",
+    des: "535",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "11537548",
+    value: "0.001866",
+    des: "536",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "13585747",
+    value: "0.001866",
+    des: "537",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "11648203",
+    value: "0.001866",
+    des: "538",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "11634935",
+    value: "0.001866",
+    des: "539",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25283844",
+    value: "0.001866",
+    des: "540",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "17901478",
+    value: "0.001866",
+    des: "541",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "14248465",
+    value: "0.001866",
+    des: "542",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "7273567",
+    value: "0.001866",
+    des: "543",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "19676017",
+    value: "0.001866",
+    des: "544",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "18453790",
+    value: "0.001866",
+    des: "545",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8652223",
+    value: "0.001866",
+    des: "546",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "19438795",
+    value: "0.001866",
+    des: "547",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "20229598",
+    value: "0.001866",
+    des: "548",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "6176051",
+    value: "0.001866",
+    des: "549",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "8153580",
+    value: "0.001866",
+    des: "550",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "5323111",
+    value: "0.001866",
+    des: "551",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "5700353",
+    value: "0.001866",
+    des: "552",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "10170097",
+    value: "0.001866",
+    des: "553",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "7583156",
+    value: "0.001866",
+    des: "554",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "11666454",
+    value: "0.001866",
+    des: "555",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "5322676",
+    value: "0.001866",
+    des: "556",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "19438576",
+    value: "0.001866",
+    des: "557",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "6743438",
+    value: "0.001866",
+    des: "558",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "6283816",
+    value: "0.001866",
+    des: "559",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "1499059",
+    value: "0.001866",
+    des: "560",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "14019049",
+    value: "0.001866",
+    des: "561",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12625062",
+    value: "0.001866",
+    des: "562",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "10155406",
+    value: "0.001866",
+    des: "563",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "9553049",
+    value: "0.001866",
+    des: "564",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "11367239",
+    value: "0.001866",
+    des: "565",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "16447220",
+    value: "0.001866",
+    des: "566",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "17656580",
+    value: "0.001866",
+    des: "567",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "13968591",
+    value: "0.001866",
+    des: "568",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12580874",
+    value: "0.001866",
+    des: "569",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "10253351",
+    value: "0.001866",
+    des: "570",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "14791909",
+    value: "0.001866",
+    des: "571",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "5730905",
+    value: "0.001866",
+    des: "572",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "12537084",
+    value: "0.001866",
+    des: "573",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8342986",
+    value: "0.001866",
+    des: "574",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "12536976",
+    value: "0.001866",
+    des: "575",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "6744031",
+    value: "0.001866",
+    des: "576",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "7337897",
+    value: "0.001866",
+    des: "577",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "16793623",
+    value: "0.001866",
+    des: "578",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "16462220",
+    value: "0.001866",
+    des: "579",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "1965359",
+    value: "0.001866",
+    des: "580",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "22184885",
+    value: "0.001866",
+    des: "581",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "13811638",
+    value: "0.001866",
+    des: "582",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6758696",
+    value: "0.001866",
+    des: "583",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "4972515",
+    value: "0.001866",
+    des: "584",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "622353",
+    value: "0.001866",
+    des: "585",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "18740874",
+    value: "0.001866",
+    des: "586",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "19218397",
+    value: "0.001866",
+    des: "587",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "2922362",
+    value: "0.001866",
+    des: "588",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "7144636",
+    value: "0.001866",
+    des: "589",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "10643334",
+    value: "0.001866",
+    des: "590",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25232118",
+    value: "0.001866",
+    des: "591",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "6743872",
+    value: "0.001866",
+    des: "592",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "1114551",
+    value: "0.001866",
+    des: "593",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "20232186",
+    value: "0.001866",
+    des: "594",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "5322112",
+    value: "0.001866",
+    des: "595",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "13546992",
+    value: "0.001866",
+    des: "596",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "653732",
+    value: "0.001866",
+    des: "597",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "11545685",
+    value: "0.001866",
+    des: "598",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5300680",
+    value: "0.001866",
+    des: "599",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "7110090",
+    value: "0.001866",
+    des: "600",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "10381820",
+    value: "0.001866",
+    des: "601",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "2094527",
+    value: "0.001866",
+    des: "602",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "14248144",
+    value: "0.001866",
+    des: "603",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "19913406",
+    value: "0.001866",
+    des: "604",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "8871079",
+    value: "0.001866",
+    des: "605",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "12418401",
+    value: "0.001866",
+    des: "606",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "14051279",
+    value: "0.001866",
+    des: "607",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "19643600",
+    value: "0.001866",
+    des: "608",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "18715130",
+    value: "0.001866",
+    des: "609",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "14242379",
+    value: "0.001866",
+    des: "610",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "10133207",
+    value: "0.001866",
+    des: "611",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "4974804",
+    value: "0.001866",
+    des: "612",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "18232400",
+    value: "0.001866",
+    des: "613",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "3366776",
+    value: "0.001866",
+    des: "614",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "10009577",
+    value: "0.001866",
+    des: "615",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "7757505",
+    value: "0.001866",
+    des: "616",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "1542152",
+    value: "0.001866",
+    des: "617",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "17026350",
+    value: "0.001866",
+    des: "618",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "7608103",
+    value: "0.001866",
+    des: "619",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "19756416",
+    value: "0.001866",
+    des: "620",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "26705422",
+    value: "0.001866",
+    des: "621",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "543486",
+    value: "0.001866",
+    des: "622",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "11968297",
+    value: "0.001866",
+    des: "623",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "4906571",
+    value: "0.001866",
+    des: "624",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "18465848",
+    value: "0.001866",
+    des: "625",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "7720138",
+    value: "0.001866",
+    des: "626",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "3628058",
+    value: "0.001866",
+    des: "627",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "4097540",
+    value: "0.001866",
+    des: "628",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "10237167",
+    value: "0.001866",
+    des: "629",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "14687696",
+    value: "0.001866",
+    des: "630",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "3686951",
+    value: "0.001866",
+    des: "631",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "26618883",
+    value: "0.001866",
+    des: "632",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "12758709",
+    value: "0.001866",
+    des: "633",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "2796508",
+    value: "0.001866",
+    des: "634",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9072310",
+    value: "0.001866",
+    des: "635",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "13772699",
+    value: "0.001866",
+    des: "636",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "12537810",
+    value: "0.001866",
+    des: "637",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "3102856",
+    value: "0.001866",
+    des: "638",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "17963053",
+    value: "0.001866",
+    des: "639",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "5836185",
+    value: "0.001866",
+    des: "640",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "2871399",
+    value: "0.001866",
+    des: "641",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "3100955",
+    value: "0.001866",
+    des: "642",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9064981",
+    value: "0.001866",
+    des: "643",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12583662",
+    value: "0.001866",
+    des: "644",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "11973645",
+    value: "0.001866",
+    des: "645",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "26705401",
+    value: "0.001866",
+    des: "646",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "17070351",
+    value: "0.001866",
+    des: "647",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "14106448",
+    value: "0.001866",
+    des: "648",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "19170768",
+    value: "0.001866",
+    des: "649",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "9830345",
+    value: "0.001866",
+    des: "650",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "17070582",
+    value: "0.001866",
+    des: "651",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "8871064",
+    value: "0.001866",
+    des: "652",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3403943",
+    value: "0.001866",
+    des: "653",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "14334895",
+    value: "0.001866",
+    des: "654",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "2159529",
+    value: "0.001866",
+    des: "655",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "22794160",
+    value: "0.001866",
+    des: "656",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "910863",
+    value: "0.001866",
+    des: "657",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "21842863",
+    value: "0.001866",
+    des: "658",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "18847866",
+    value: "0.001866",
+    des: "659",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "19746037",
+    value: "0.001866",
+    des: "660",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "20278105",
+    value: "0.001866",
+    des: "661",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "20690241",
+    value: "0.001866",
+    des: "662",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "17577389",
+    value: "0.001866",
+    des: "663",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "3883478",
+    value: "0.001866",
+    des: "664",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "12635658",
+    value: "0.001866",
+    des: "665",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "19438441",
+    value: "0.001866",
+    des: "666",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15715649",
+    value: "0.001866",
+    des: "667",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "10854813",
+    value: "0.001866",
+    des: "668",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "16120825",
+    value: "0.001866",
+    des: "669",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "4846729",
+    value: "0.001866",
+    des: "670",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16913970",
+    value: "0.001866",
+    des: "671",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8460795",
+    value: "0.001866",
+    des: "672",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "27486736",
+    value: "0.001866",
+    des: "673",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "13792898",
+    value: "0.001866",
+    des: "674",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "27196106",
+    value: "0.001866",
+    des: "675",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "7202810",
+    value: "0.001866",
+    des: "676",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "16055266",
+    value: "0.001866",
+    des: "677",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "11623800",
+    value: "0.001866",
+    des: "678",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8294424",
+    value: "0.001866",
+    des: "679",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "8459471",
+    value: "0.001866",
+    des: "680",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "1606635",
+    value: "0.001866",
+    des: "681",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "20621968",
+    value: "0.001866",
+    des: "682",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "8831511",
+    value: "0.001866",
+    des: "683",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "7203191",
+    value: "0.001866",
+    des: "684",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "4611058",
+    value: "0.001866",
+    des: "685",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "14714143",
+    value: "0.001866",
+    des: "686",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "17103768",
+    value: "0.001866",
+    des: "687",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "14339206",
+    value: "0.001866",
+    des: "688",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "6540155",
+    value: "0.001866",
+    des: "689",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6299432",
+    value: "0.001866",
+    des: "690",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "7220733",
+    value: "0.001866",
+    des: "691",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "19835420",
+    value: "0.001866",
+    des: "692",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "16114358",
+    value: "0.001866",
+    des: "693",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "2181798",
+    value: "0.001866",
+    des: "694",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12406813",
+    value: "0.001866",
+    des: "695",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25593074",
+    value: "0.001866",
+    des: "696",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "1887456",
+    value: "0.001866",
+    des: "697",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "11239824",
+    value: "0.001866",
+    des: "698",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "13793069",
+    value: "0.001866",
+    des: "699",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "27052756",
+    value: "0.001866",
+    des: "700",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16657608",
+    value: "0.001866",
+    des: "701",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "3108991",
+    value: "0.001866",
+    des: "702",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "15110999",
+    value: "0.001866",
+    des: "703",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10383444",
+    value: "0.001866",
+    des: "704",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "13708786",
+    value: "0.001866",
+    des: "705",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "13173782",
+    value: "0.001866",
+    des: "706",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "3000971",
+    value: "0.001866",
+    des: "707",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "19952413",
+    value: "0.001866",
+    des: "708",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9917779",
+    value: "0.001866",
+    des: "709",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "12013098",
+    value: "0.001866",
+    des: "710",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "13021928",
+    value: "0.001866",
+    des: "711",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "17209818",
+    value: "0.001866",
+    des: "712",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "15230172",
+    value: "0.001866",
+    des: "713",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5787449",
+    value: "0.001866",
+    des: "714",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "9041310",
+    value: "0.001866",
+    des: "715",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "16479393",
+    value: "0.001866",
+    des: "716",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "3404286",
+    value: "0.001866",
+    des: "717",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "10007923",
+    value: "0.001866",
+    des: "718",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "1024107",
+    value: "0.001866",
+    des: "719",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "14791004",
+    value: "0.001866",
+    des: "720",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "20064768",
+    value: "0.001866",
+    des: "721",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "5446241",
+    value: "0.001866",
+    des: "722",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "11662532",
+    value: "0.001866",
+    des: "723",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "6502180",
+    value: "0.001866",
+    des: "724",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "7204451",
+    value: "0.001866",
+    des: "725",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9927794",
+    value: "0.001866",
+    des: "726",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "10942716",
+    value: "0.001866",
+    des: "727",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "16230736",
+    value: "0.001866",
+    des: "728",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "8828058",
+    value: "0.001866",
+    des: "729",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "16120393",
+    value: "0.001866",
+    des: "730",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25937614",
+    value: "0.001866",
+    des: "731",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "11726323",
+    value: "0.001866",
+    des: "732",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8120005",
+    value: "0.001866",
+    des: "733",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "17971059",
+    value: "0.001866",
+    des: "734",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "18051047",
+    value: "0.001866",
+    des: "735",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "21224013",
+    value: "0.001866",
+    des: "736",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "20542668",
+    value: "0.001866",
+    des: "737",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "21225378",
+    value: "0.001866",
+    des: "738",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "9907400",
+    value: "0.001866",
+    des: "739",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "7097701",
+    value: "0.001866",
+    des: "740",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "1805430",
+    value: "0.001866",
+    des: "741",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "13725656",
+    value: "0.001866",
+    des: "742",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "16203178",
+    value: "0.001866",
+    des: "743",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "10809975",
+    value: "0.001866",
+    des: "744",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "6848428",
+    value: "0.001866",
+    des: "745",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "5500661",
+    value: "0.001866",
+    des: "746",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "6798666",
+    value: "0.001866",
+    des: "747",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "15949429",
+    value: "0.001866",
+    des: "748",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "13802868",
+    value: "0.001866",
+    des: "749",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12246109",
+    value: "0.001866",
+    des: "750",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "17537843",
+    value: "0.001866",
+    des: "751",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "18912234",
+    value: "0.001866",
+    des: "752",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "515768",
+    value: "0.001866",
+    des: "753",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17950484",
+    value: "0.001866",
+    des: "754",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "4281332",
+    value: "0.001866",
+    des: "755",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "15731190",
+    value: "0.001866",
+    des: "756",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "447209",
+    value: "0.001866",
+    des: "757",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "11865478",
+    value: "0.001866",
+    des: "758",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "18781476",
+    value: "0.001866",
+    des: "759",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "11597445",
+    value: "0.001866",
+    des: "760",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "21221144",
+    value: "0.001866",
+    des: "761",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "16444897",
+    value: "0.001866",
+    des: "762",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9927947",
+    value: "0.001866",
+    des: "763",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "9064712",
+    value: "0.001866",
+    des: "764",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "11540109",
+    value: "0.001866",
+    des: "765",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "13882923",
+    value: "0.001866",
+    des: "766",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "5734985",
+    value: "0.001866",
+    des: "767",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "18612899",
+    value: "0.001866",
+    des: "768",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "13498247",
+    value: "0.001866",
+    des: "769",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "5359829",
+    value: "0.001866",
+    des: "770",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "3977400",
+    value: "0.001866",
+    des: "771",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "10806804",
+    value: "0.001866",
+    des: "772",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "6499744",
+    value: "0.001866",
+    des: "773",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12684497",
+    value: "0.001866",
+    des: "774",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8104539",
+    value: "0.001866",
+    des: "775",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "10334632",
+    value: "0.001866",
+    des: "776",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10074068",
+    value: "0.001866",
+    des: "777",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "9516500",
+    value: "0.001866",
+    des: "778",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "11405531",
+    value: "0.001866",
+    des: "779",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "5803331",
+    value: "0.001866",
+    des: "780",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10206567",
+    value: "0.001866",
+    des: "781",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16559669",
+    value: "0.001866",
+    des: "782",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "1537269",
+    value: "0.001866",
+    des: "783",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "13958043",
+    value: "0.001866",
+    des: "784",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "11078732",
+    value: "0.001866",
+    des: "785",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "13708678",
+    value: "0.001866",
+    des: "786",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "11224878",
+    value: "0.001866",
+    des: "787",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "18658924",
+    value: "0.001866",
+    des: "788",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "18050486",
+    value: "0.001866",
+    des: "789",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10173410",
+    value: "0.001866",
+    des: "790",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "18156794",
+    value: "0.001866",
+    des: "791",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "4792579",
+    value: "0.001866",
+    des: "792",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "6921529",
+    value: "0.001866",
+    des: "793",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "24736763",
+    value: "0.001866",
+    des: "794",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "23973926",
+    value: "0.001866",
+    des: "795",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "9825354",
+    value: "0.001866",
+    des: "796",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "14623833",
+    value: "0.001866",
+    des: "797",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "9062327",
+    value: "0.001866",
+    des: "798",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "6811864",
+    value: "0.001866",
+    des: "799",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "9572100",
+    value: "0.001866",
+    des: "800",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9356405",
+    value: "0.001866",
+    des: "801",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "9588894",
+    value: "0.001866",
+    des: "802",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "3676883",
+    value: "0.001866",
+    des: "803",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "7154094",
+    value: "0.001866",
+    des: "804",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25616245",
+    value: "0.001866",
+    des: "805",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "11080268",
+    value: "0.001866",
+    des: "806",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25521713",
+    value: "0.001866",
+    des: "807",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "11821236",
+    value: "0.001866",
+    des: "808",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10396249",
+    value: "0.001866",
+    des: "809",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "13708654",
+    value: "0.001866",
+    des: "810",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "3064440",
+    value: "0.001866",
+    des: "811",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "13696391",
+    value: "0.001866",
+    des: "812",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3231125",
+    value: "0.001866",
+    des: "813",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "473375",
+    value: "0.001866",
+    des: "814",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "22464559",
+    value: "0.001866",
+    des: "815",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "14626752",
+    value: "0.001866",
+    des: "816",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "5133858",
+    value: "0.001866",
+    des: "817",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "14763758",
+    value: "0.001866",
+    des: "818",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "5185721",
+    value: "0.001866",
+    des: "819",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "4739827",
+    value: "0.001866",
+    des: "820",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "3789726",
+    value: "0.001866",
+    des: "821",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25936206",
+    value: "0.001866",
+    des: "822",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "12339439",
+    value: "0.001866",
+    des: "823",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12090315",
+    value: "0.001866",
+    des: "824",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12365274",
+    value: "0.001866",
+    des: "825",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "10863359",
+    value: "0.001866",
+    des: "826",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "11239554",
+    value: "0.001866",
+    des: "827",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "6610342",
+    value: "0.001866",
+    des: "828",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "9649049",
+    value: "0.001866",
+    des: "829",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16622254",
+    value: "0.001866",
+    des: "830",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "9783023",
+    value: "0.001866",
+    des: "831",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "17226084",
+    value: "0.001866",
+    des: "832",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "10927456",
+    value: "0.001866",
+    des: "833",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "4960913",
+    value: "0.001866",
+    des: "834",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "17227458",
+    value: "0.001866",
+    des: "835",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "4866196",
+    value: "0.001866",
+    des: "836",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12542670",
+    value: "0.001866",
+    des: "837",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "10863287",
+    value: "0.001866",
+    des: "838",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "6873723",
+    value: "0.001866",
+    des: "839",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "12891318",
+    value: "0.001866",
+    des: "840",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "6604582",
+    value: "0.001866",
+    des: "841",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "11239740",
+    value: "0.001866",
+    des: "842",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "4516986",
+    value: "0.001866",
+    des: "843",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "6498317",
+    value: "0.001866",
+    des: "844",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "14062664",
+    value: "0.001866",
+    des: "845",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "6785283",
+    value: "0.001866",
+    des: "846",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "9476025",
+    value: "0.001866",
+    des: "847",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "13470944",
+    value: "0.001866",
+    des: "848",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "9316751",
+    value: "0.001866",
+    des: "849",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "9242093",
+    value: "0.001866",
+    des: "850",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "3749876",
+    value: "0.001866",
+    des: "851",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3646202",
+    value: "0.001866",
+    des: "852",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9944908",
+    value: "0.001866",
+    des: "853",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "16573300",
+    value: "0.001866",
+    des: "854",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "5488767",
+    value: "0.001866",
+    des: "855",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "27196136",
+    value: "0.001866",
+    des: "856",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "3064500",
+    value: "0.001866",
+    des: "857",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "888417",
+    value: "0.001866",
+    des: "858",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "4686634",
+    value: "0.001866",
+    des: "859",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "9196750",
+    value: "0.001866",
+    des: "860",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "4276508",
+    value: "0.001866",
+    des: "861",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25521665",
+    value: "0.001866",
+    des: "862",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "17973167",
+    value: "0.001866",
+    des: "863",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9898055",
+    value: "0.001866",
+    des: "864",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "2924263",
+    value: "0.001866",
+    des: "865",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "10814001",
+    value: "0.001866",
+    des: "866",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "3978051",
+    value: "0.001866",
+    des: "867",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "19143847",
+    value: "0.001866",
+    des: "868",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "13882938",
+    value: "0.001866",
+    des: "869",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "6785298",
+    value: "0.001866",
+    des: "870",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "10814196",
+    value: "0.001866",
+    des: "871",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "4789590",
+    value: "0.001866",
+    des: "872",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "18150538",
+    value: "0.001866",
+    des: "873",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "1135010",
+    value: "0.001866",
+    des: "874",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "3977253",
+    value: "0.001866",
+    des: "875",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "3814858",
+    value: "0.001866",
+    des: "876",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "5505353",
+    value: "0.001866",
+    des: "877",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "25309559",
+    value: "0.001866",
+    des: "878",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "12588097",
+    value: "0.001866",
+    des: "879",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "19533392",
+    value: "0.001866",
+    des: "880",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "8826783",
+    value: "0.001866",
+    des: "881",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "5325427",
+    value: "0.001866",
+    des: "882",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "13957056",
+    value: "0.001866",
+    des: "883",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "18484055",
+    value: "0.001866",
+    des: "884",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "16323706",
+    value: "0.001866",
+    des: "885",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "17769922",
+    value: "0.001866",
+    des: "886",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "1897337",
+    value: "0.001866",
+    des: "887",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "11346566",
+    value: "0.001866",
+    des: "888",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "18039835",
+    value: "0.001866",
+    des: "889",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "15837077",
+    value: "0.001866",
+    des: "890",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "18611026",
+    value: "0.001866",
+    des: "891",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "3986983",
+    value: "0.001866",
+    des: "892",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "4509771",
+    value: "0.001866",
+    des: "893",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "15347655",
+    value: "0.001866",
+    des: "894",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "17402662",
+    value: "0.001866",
+    des: "895",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "13838965",
+    value: "0.001866",
+    des: "896",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "12542607",
+    value: "0.001866",
+    des: "897",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "9823294",
+    value: "0.001866",
+    des: "898",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "24677260",
+    value: "0.001866",
+    des: "899",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "14511479",
+    value: "0.001866",
+    des: "900",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "5812989",
+    value: "0.001866",
+    des: "901",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "26186504",
+    value: "0.001866",
+    des: "902",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "5990402",
+    value: "0.001866",
+    des: "903",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "1607035",
+    value: "0.001866",
+    des: "904",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "4962410",
+    value: "0.001866",
+    des: "905",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "5647164",
+    value: "0.001866",
+    des: "906",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "4960619",
+    value: "0.001866",
+    des: "907",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "17228415",
+    value: "0.001866",
+    des: "908",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "17228526",
+    value: "0.001866",
+    des: "909",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "11217239",
+    value: "0.001866",
+    des: "910",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3L",
+    pos: "2442570",
+    value: "0.001866",
+    des: "911",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "12667791",
+    value: "0.001866",
+    des: "912",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "5262571",
+    value: "0.001866",
+    des: "913",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "18039865",
+    value: "0.001866",
+    des: "914",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "12129277",
+    value: "0.001866",
+    des: "915",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "8828295",
+    value: "0.001866",
+    des: "916",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "8294577",
+    value: "0.001866",
+    des: "917",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2L",
+    pos: "13272495",
+    value: "0.001866",
+    des: "918",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "9927458",
+    value: "0.001866",
+    des: "919",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "19680202",
+    value: "0.001866",
+    des: "920",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chrX",
+    pos: "7527239",
+    value: "0.001866",
+    des: "921",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "6968609",
+    value: "0.001866",
+    des: "922",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr2R",
+    pos: "10934930",
+    value: "0.001866",
+    des: "923",
+    color: "rgb(153,153,3)"
+}, {
+    chr: "chr3R",
+    pos: "15076743",
+    value: "0.001866",
+    des: "924",
+    color: "rgb(153,153,3)"
+}
+]];

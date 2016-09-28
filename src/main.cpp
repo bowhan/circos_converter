@@ -5,7 +5,14 @@
 
 using namespace std;
 
-inline void ToLower(char *);
+inline void ToLower(char *c) {
+    while (*c) {
+        if (*c >= 65 && *c <= 90) {
+            *c += 32;
+        }
+        ++c;
+    }
+}
 
 int main(int argc, char **argv) {
     if (argc < 3) {
@@ -41,15 +48,6 @@ int main(int argc, char **argv) {
     subpro.Register("text", TextParser);
 
     ToLower(argv[1]);
-    string subprogram{argv[1]};
-    return subpro.Call(subprogram.c_str(), argc - 1, argv + 1);
+    return subpro.Call(argv[1], argc - 1, argv + 1);
 }
 
-void ToLower(char *c) {
-    while (*c) {
-        if (*c >= 65 && *c <= 90) {
-            *c += 32;
-        }
-        ++c;
-    }
-}
