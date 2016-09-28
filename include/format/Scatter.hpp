@@ -10,13 +10,13 @@ class Scatter {
 
 template < >
 struct FormatReader<Scatter> {
-    void Read(const std::string& file) {
+    std::vector<Scatter> Read(const char *file) {
 
     }
 };
 
 template < >
-struct FormatParser<Scatter> {
+struct FormatConverter<Scatter> {
     void Parse(const std::vector<Scatter>& data) {
 
     }

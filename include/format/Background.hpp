@@ -10,13 +10,13 @@ class Background {
 
 template < >
 struct FormatReader<Background> {
-    void Read(const std::string& file) {
+    std::vector<Background> Read(const char *file) {
 
     }
 };
 
 template < >
-struct FormatParser<Background> {
+struct FormatConverter<Background> {
     void Parse(const std::vector<Background>& data) {
 
     }

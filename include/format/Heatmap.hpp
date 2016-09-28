@@ -10,13 +10,13 @@ class Heatmap {
 
 template < >
 struct FormatReader<Heatmap> {
-    void Read(const std::string& file) {
+    std::vector<Heatmap> Read(const char *file) {
 
     }
 };
 
 template < >
-struct FormatParser<Heatmap> {
+struct FormatConverter<Heatmap> {
     void Parse(const std::vector<Heatmap>& data) {
 
     }

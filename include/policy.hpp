@@ -5,11 +5,11 @@
 
 template <class T>
 struct FormatReader {
-    void Read(const std::string&);
+    std::vector<T> Read(const char*);
 };
 
 
 template <class T>
-struct FormatParser {
+struct FormatConverter {
     void Parse(const std::vector<T>& data);
 };

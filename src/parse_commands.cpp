@@ -1,7 +1,6 @@
 #include "parser_commands.hpp"
 
 #define PARSEMAIN(FORMAT) \
-        std::cerr << "parsing... " << #FORMAT << std::endl; \
         using ParserType = Parser<FORMAT>; \
         ParserType parser; \
         Driver d{argv[1], &parser}; \

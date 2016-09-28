@@ -2,7 +2,6 @@
 
 Driver::Driver(const std::string& filename, ParserBase *p)
     : infile_(filename), parser_(p) {
-    p->ReadIn(filename);
 }
 
 Driver::Driver(Driver&& other)

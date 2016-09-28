@@ -10,13 +10,13 @@ class Cnv {
 
 template < >
 struct FormatReader<Cnv> {
-    void Read(const std::string& file) {
+    std::vector<Cnv> Read(const char *file) {
 
     }
 };
 
 template < >
-struct FormatParser<Cnv> {
+struct FormatConverter<Cnv> {
     void Parse(const std::vector<Cnv>& data) {
 
     }

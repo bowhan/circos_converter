@@ -28,7 +28,7 @@ public:
         if (parser_ == nullptr) {
             throw std::runtime_error("Driver has not been loaded with any parser");
         }
-        parser_->ReadIn(infile_);
+        parser_->ReadIn(infile_.c_str());
         return *this;
     }
 

@@ -10,13 +10,13 @@ class Link {
 
 template < >
 struct FormatReader<Link> {
-    void Read(const std::string& file) {
+    std::vector<Link> Read(const char *file) {
 
     }
 };
 
 template < >
-struct FormatParser<Link> {
+struct FormatConverter<Link> {
     void Parse(const std::vector<Link>& data) {
 
     }

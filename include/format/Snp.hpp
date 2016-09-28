@@ -10,13 +10,13 @@ class Snp {
 
 template < >
 struct FormatReader<Snp> {
-    void Read(const std::string& file) {
+    std::vector<Snp> Read(const char *file) {
 
     }
 };
 
 template < >
-struct FormatParser<Snp> {
+struct FormatConverter<Snp> {
     void Parse(const std::vector<Snp>& data) {
 
     }

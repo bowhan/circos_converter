@@ -10,13 +10,13 @@ class Histogram {
 
 template < >
 struct FormatReader<Histogram> {
-    void Read(const std::string& file) {
+    std::vector<Histogram> Read(const char *file) {
 
     }
 };
 
 template < >
-struct FormatParser<Histogram> {
+struct FormatConverter<Histogram> {
     void Parse(const std::vector<Histogram>& data) {
 
     }

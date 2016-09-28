@@ -1,4 +1,7 @@
+cmake_minimum_required(VERSION 3.2)
+project(BiocircosConverter)
 include_directories(include)
+include_directories($ENV{BOLIB})
 add_executable(main
         src/main.cpp
 

@@ -10,13 +10,13 @@ class Line {
 
 template < >
 struct FormatReader<Line> {
-    void Read(const std::string& file) {
+    std::vector<Line> Read(const char *file) {
 
     }
 };
 
 template < >
-struct FormatParser<Line> {
+struct FormatConverter<Line> {
     void Parse(const std::vector<Line>& data) {
 
     }
