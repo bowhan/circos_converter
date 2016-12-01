@@ -1,7 +1,7 @@
 #pragma once
 
 #include "policy.hpp"
-#include "bolib/utils/log.hpp"
+#include "utils/log.hpp"
 #include <stdio.h>
 #include <inttypes.h>
 #include <string>
@@ -12,10 +12,10 @@ struct Arc {
     long long end_;
     std::string chr_;
     std::string color_;
-    std::string desc_;
 
-    Arc(char *c, long long s, long long e, char *color, char *desc)
-        : chr_(c), start_(s), end_(e), color_(color), desc_(desc) {}
+    Arc(char *c, long long s, long long e, std::string color)
+        : chr_(c), start_(s), end_(e), color_(color) {}
+
 };
 
 template < >

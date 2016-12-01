@@ -1,7 +1,7 @@
 #pragma once
 
 #include "policy.hpp"
-#include "bolib/utils/log.hpp"
+#include "utils/log.hpp"
 #include <stdio.h>
 #include <inttypes.h>
 #include <string>

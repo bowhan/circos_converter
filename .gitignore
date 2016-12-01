@@ -1,3 +1,7 @@
 build
 .vscode
 .idea
+cmake-build-debug
+/bin/circos_converter
+/data
+html

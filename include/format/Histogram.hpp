@@ -1,7 +1,7 @@
 #pragma once
 
 #include "policy.hpp"
-#include "bolib/utils/log.hpp"
+#include "utils/log.hpp"
 #include <stdio.h>
 #include <inttypes.h>
 #include <string>
@@ -11,10 +11,10 @@ struct Histogram {
     long long start_, end_;
     double value_;
     std::string chr_;
-    std::string name_;
+    //    std::string name_;
 
-    Histogram(char *chr, long long int start, long long int anEnd, char *name, double value)
-        : chr_(chr), start_(start), end_(anEnd), value_(value), name_(name) {}
+    Histogram(char *chr, long long int start, long long int anEnd, double value)
+        : chr_(chr), start_(start), end_(anEnd), value_(value) {}
 };
 
 template < >

@@ -1,6 +1,5 @@
-#include <stdlib.h>
 #include <iostream>
-#include "bolib/program_options/sub.hpp"
+#include "utils/sub.hpp"
 #include "parser_commands.hpp"
 
 using namespace std;
@@ -16,21 +15,24 @@ inline void ToLower(char *c) {
 
 int main(int argc, char **argv) {
     if (argc < 3) {
-        cerr << "usage: " << argv[0]
-             << " ["
-             << "snp" << "|"
-             << "scatter" << "|"
-             << "link" << "|"
-             << "cnv" << "|"
-             << "arc" << "|"
-             << "heatmap" << "|"
-             << "histogram" << "|"
-             << "line" << "|"
-             << "scatter" << "|"
-             << "background" << "|"
-             << "text"
-             << "] "
-             << " input_filename" << endl;
+        cerr << R"(
+This program generate sample.js for biocircos.
+usage:
+
+    program [snp|scatter|link|cnv|arc|heatmap|histogram|line|scatter|background|text] input_file
+
+The format of input files for diff types are as follows:
+
+[ arc ]
+chr  start  end  % (i.e, GC content)
+> program arc input > arc.js
+
+[ scatter | heatmap | histogram | line | scatter ]
+> program [scatter|heatmap|histogram|line|scatter] input.bed2 > output.js
+
+
+)"
+             << endl;
         return 1;
     }
 

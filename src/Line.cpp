@@ -9,11 +9,12 @@ std::vector<Line> FormatReader<Line>::Read(const char *file) {
     char buffer[1024];
     char chr[64];
     long long pos;
+    long long end;
     double value;
     int count;
     while (fgets(buffer, 1024, in) != NULL) {
         if (buffer[0] == '#') continue;
-        if ((count = sscanf(buffer, "%s\t%lld\t%lf\n", chr, &pos, &value)) == 3) {
+        if ((count = sscanf(buffer, "%s\t%lld\t%lld\t%lf\n", chr, &pos, &end, &value)) == 4) {
             ret.emplace_back(chr, pos, value);
         }
     }
