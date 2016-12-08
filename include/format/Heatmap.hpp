@@ -11,10 +11,10 @@ struct Heatmap {
     long long start_, end_;
     double value_;
     std::string chr_;
-    std::string name_;
+    std::string seq_;
 
-    Heatmap(char *chr, long long int start, long long int anEnd, char *name, double value)
-        : chr_(chr), start_(start), end_(anEnd), value_(value), name_(name) {}
+    Heatmap(char *chr, long long int start, long long int anEnd, int num_reads, int num_mapper, std::string seq)
+        : chr_(chr), start_(start), end_(anEnd), value_(double(num_reads) / num_mapper), seq_(seq) {}
 };
 
 template < >
